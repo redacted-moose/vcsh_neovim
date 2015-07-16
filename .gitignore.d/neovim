@@ -1,0 +1,7 @@
+*
+!/.gitignore.d
+!/.gitignore.d/neovim
+!/.nvim
+!/.nvim/colors
+!/.nvim/colors/monokai.vim
+!/.nvimrc
