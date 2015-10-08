@@ -6,4 +6,5 @@
 !/.vim
 !/.vim/colors
 !/.vim/colors/monokai.vim
+!/.vim/colors/molokai.vim
 !/.vimrc
