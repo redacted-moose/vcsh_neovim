@@ -1,4 +1,5 @@
 *
+!/.config/nvim
 !/.gitignore.d
 !/.gitignore.d/vim
 !/.nvim
@@ -10,4 +11,3 @@
 !/.vim/colors/monokai.vim
 !/.vim/colors/molokai.vim
 !/.vimrc
-!/.config/nvim
