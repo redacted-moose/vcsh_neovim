@@ -2,9 +2,12 @@
 !/.gitignore.d
 !/.gitignore.d/vim
 !/.nvim
+!/.nvim/vim.init
 !/.nvimrc
 !/.vim
+!/.vim/vim.init
 !/.vim/colors
 !/.vim/colors/monokai.vim
 !/.vim/colors/molokai.vim
 !/.vimrc
+!/.config/nvim

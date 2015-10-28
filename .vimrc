@@ -1,10 +1,3 @@
-set relativenumber
-set number
-
-" colorscheme monokai
-colorscheme molokai
-let g:rehash = 1
-
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
@@ -13,6 +6,32 @@ if has('vim_starting')
     set nocompatible               " Be iMproved
   endif
 endif
+
+syntax enable " enable syntax highlighting
+set relativenumber " Turn on relative line numbers
+set number " Turn on line numbers
+set tabstop=4 " number of visual spaces per tab
+set softtabstop=4 " number of spaces in tab when editing
+set expandtab " tabs are spaces
+set showcmd " shows last command at the bottom
+set cursorline " highlights current line
+
+filetype indent on " load filetype specific indentation files
+
+set wildmenu " visual autocomplete for command menu
+set lazyredraw " redraw only when necessary
+set showmatch " highlight matching [{()}]
+
+set incsearch " search as characters are entered
+set hlsearch " highlight matches
+
+
+" Set the color scheme 
+" colorscheme monokai
+colorscheme molokai
+let g:rehash = 1
+
+
 
 call plug#begin('~/.vim/bundle')
 
